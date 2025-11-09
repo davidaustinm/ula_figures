@@ -32,8 +32,8 @@ Vector(w, tail=proj, fillcolor=gray).fill()
 Vector(v).fill()
 
 Label(r"${\mathbf w}$", v, alignment="lt", offset=[4,-4]).draw()
-Label(r"${\mathbf sw}$", proj, alignment="lt", offset=[4,-4]).draw()
-Label(r"${\mathbf b-sw}$", smult(0.5,vsum(proj,w)),
+Label(r"$s{\mathbf w}$", proj, alignment="lt", offset=[4,-4]).draw()
+Label(r"${\mathbf b}-s{\mathbf w}$", smult(0.5,vsum(proj,w)),
       alignment="lc", offset=[4,4]).draw() 
 Label(r"${\mathbf b}$", w, alignment="rb", offset=[-4,4]).draw()
 Label(r"$L$", [5,2.5], alignment="rb", offset=[-4,4]).draw()
